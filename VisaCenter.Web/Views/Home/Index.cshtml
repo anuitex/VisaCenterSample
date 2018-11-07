@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row">
+    <div class="col-md-3">
+        <form method="post" action="home/index">
+            <h2>Please fill out the form</h2>
+            <ul>
+                <li>First Name</li>
+                <li><input name="FirstName" type="text" /></li>
+                <li>Last Name</li>
+                <li><input name="LastName" type="text" /></li>
+                <li>Passport Id</li>
+                <li><input name="PassportId" type="text" /></li>
+
+                <li>. . . . . .  . . .  . </li>
+                <li>. . . . . .  . . .  . </li>
+                <li>. . . . . .  . . .  . </li>
+
+                <li>Photo</li>
+                <li><input type="file" /></li>
+
+            </ul>
+            <button type="submit">Submit</button>
+        </form>
+       
+    </div>
+   
+</div>

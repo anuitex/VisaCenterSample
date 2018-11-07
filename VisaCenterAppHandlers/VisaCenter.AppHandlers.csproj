@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VisaCenter.Core\VisaCenter.Core.csproj" />
+    <ProjectReference Include="..\VisaCenter.DomainEvents\VisaCenter.DomainEvents.csproj" />
+    <ProjectReference Include="..\VisaCenter.Interfaces\VisaCenter.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
